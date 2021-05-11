@@ -512,7 +512,7 @@ U 1 1 606883D9
 P 11600 9450
 F 0 "J3" H 11572 9382 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 11572 9473 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11600 9450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 11600 9450 50  0001 C CNN
 F 3 "~" H 11600 9450 50  0001 C CNN
 	1    11600 9450
 	-1   0    0    1   
