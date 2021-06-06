@@ -10,3 +10,5 @@ Diodes				https://lcsc.com/product-detail/Diodes-General-Purpose_Slkor-SLKORMICR
 5.1K Resistors			https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPB3B5101V_C413696.html
 220R Resistors			https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF2200T5E_C22962.html
 100R Resistors			https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html
+PISO Shift Register 74HC165	https://lcsc.com/product-detail/74-Series_Texas-Instruments-Texas-Instruments-SN74HC165DR_C61060.html
+	
