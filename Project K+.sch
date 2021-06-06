@@ -216,10 +216,10 @@ D+
 Text GLabel 3850 2450 2    50   Input ~ 0
 D-
 $Comp
-L Device:Rotary_Encoder_Switch SW3
+L Device:Rotary_Encoder_Switch RE3
 U 1 1 6070CC37
 P 1500 4950
-F 0 "SW3" V 1546 4720 50  0000 R CNN
+F 0 "RE3" V 1546 4720 50  0000 R CNN
 F 1 " " V 1455 4720 50  0000 R CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1350 5110 50  0001 C CNN
 F 3 "~" H 1500 5210 50  0001 C CNN
@@ -227,10 +227,10 @@ F 3 "~" H 1500 5210 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW4
+L Device:Rotary_Encoder_Switch RE4
 U 1 1 6070FCB9
 P 1500 6500
-F 0 "SW4" V 1546 6270 50  0000 R CNN
+F 0 "RE4" V 1546 6270 50  0000 R CNN
 F 1 " " V 1455 6270 50  0000 R CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1350 6660 50  0001 C CNN
 F 3 "~" H 1500 6760 50  0001 C CNN
@@ -238,10 +238,10 @@ F 3 "~" H 1500 6760 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW2
+L Device:Rotary_Encoder_Switch RE2
 U 1 1 607108BB
 P 1500 3400
-F 0 "SW2" V 1546 3170 50  0000 R CNN
+F 0 "RE2" V 1546 3170 50  0000 R CNN
 F 1 " " V 1455 3170 50  0000 R CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1350 3560 50  0001 C CNN
 F 3 "~" H 1500 3660 50  0001 C CNN
@@ -249,10 +249,10 @@ F 3 "~" H 1500 3660 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW1
+L Device:Rotary_Encoder_Switch RE1
 U 1 1 607116E2
 P 1500 1850
-F 0 "SW1" V 1546 1620 50  0000 R CNN
+F 0 "RE1" V 1546 1620 50  0000 R CNN
 F 1 " " V 1455 1620 50  0000 R CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1350 2010 50  0001 C CNN
 F 3 "~" H 1500 2110 50  0001 C CNN
@@ -651,6 +651,318 @@ F 1 "+5V" H 1115 2523 50  0000 C CNN
 F 2 "" H 1100 2350 50  0001 C CNN
 F 3 "" H 1100 2350 50  0001 C CNN
 	1    1100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RE7
+U 1 1 6172E436
+P 6400 4850
+F 0 "RE7" V 6446 4620 50  0000 R CNN
+F 1 " " V 6355 4620 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6250 5010 50  0001 C CNN
+F 3 "~" H 6400 5110 50  0001 C CNN
+	1    6400 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RE6
+U 1 1 6172E442
+P 6400 3300
+F 0 "RE6" V 6446 3070 50  0000 R CNN
+F 1 " " V 6355 3070 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6250 3460 50  0001 C CNN
+F 3 "~" H 6400 3560 50  0001 C CNN
+	1    6400 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RE5
+U 1 1 6172E448
+P 6400 1750
+F 0 "RE5" V 6446 1520 50  0000 R CNN
+F 1 " " V 6355 1520 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6250 1910 50  0001 C CNN
+F 3 "~" H 6400 2010 50  0001 C CNN
+	1    6400 1750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6300 4250 1    50   Input ~ 0
+SW2
+Text GLabel 6300 2700 1    50   Input ~ 0
+SW3
+Text GLabel 6300 1150 1    50   Input ~ 0
+SW4
+$Comp
+L Device:R R21
+U 1 1 6172E45E
+P 6300 4400
+F 0 "R21" H 6230 4354 50  0000 R CNN
+F 1 "220R" H 6230 4445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 4400 50  0001 C CNN
+F 3 "~" H 6300 4400 50  0001 C CNN
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 6172E464
+P 6300 2850
+F 0 "R18" H 6230 2804 50  0000 R CNN
+F 1 "220R" H 6230 2895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 2850 50  0001 C CNN
+F 3 "~" H 6300 2850 50  0001 C CNN
+	1    6300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 6172E46A
+P 6300 1300
+F 0 "R15" H 6230 1254 50  0000 R CNN
+F 1 "220R" H 6230 1345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 1300 50  0001 C CNN
+F 3 "~" H 6300 1300 50  0001 C CNN
+	1    6300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0293
+U 1 1 6172E470
+P 6500 4550
+F 0 "#PWR0293" H 6500 4300 50  0001 C CNN
+F 1 "GND" H 6505 4377 50  0000 C CNN
+F 2 "" H 6500 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0294
+U 1 1 6172E476
+P 6500 3000
+F 0 "#PWR0294" H 6500 2750 50  0001 C CNN
+F 1 "GND" H 6505 2827 50  0000 C CNN
+F 2 "" H 6500 3000 50  0001 C CNN
+F 3 "" H 6500 3000 50  0001 C CNN
+	1    6500 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0295
+U 1 1 6172E47C
+P 6500 1450
+F 0 "#PWR0295" H 6500 1200 50  0001 C CNN
+F 1 "GND" H 6505 1277 50  0000 C CNN
+F 2 "" H 6500 1450 50  0001 C CNN
+F 3 "" H 6500 1450 50  0001 C CNN
+	1    6500 1450
+	-1   0    0    1   
+$EndComp
+Text GLabel 6300 2300 3    50   Input ~ 0
+A5
+Text GLabel 6500 2300 3    50   Input ~ 0
+B5
+Text GLabel 6300 3850 3    50   Input ~ 0
+A6
+Text GLabel 6500 3850 3    50   Input ~ 0
+B6
+Text GLabel 6300 5400 3    50   Input ~ 0
+A7
+Text GLabel 6500 5400 3    50   Input ~ 0
+B7
+$Comp
+L power:GND #PWR0296
+U 1 1 6172E48A
+P 6400 2050
+F 0 "#PWR0296" H 6400 1800 50  0001 C CNN
+F 1 "GND" H 6405 1877 50  0000 C CNN
+F 2 "" H 6400 2050 50  0001 C CNN
+F 3 "" H 6400 2050 50  0001 C CNN
+	1    6400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0297
+U 1 1 6172E490
+P 6400 3600
+F 0 "#PWR0297" H 6400 3350 50  0001 C CNN
+F 1 "GND" H 6405 3427 50  0000 C CNN
+F 2 "" H 6400 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0298
+U 1 1 6172E496
+P 6400 5150
+F 0 "#PWR0298" H 6400 4900 50  0001 C CNN
+F 1 "GND" H 6405 4977 50  0000 C CNN
+F 2 "" H 6400 5150 50  0001 C CNN
+F 3 "" H 6400 5150 50  0001 C CNN
+	1    6400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5150 6500 5350
+Wire Wire Line
+	6300 5150 6300 5350
+Wire Wire Line
+	6500 3600 6500 3800
+Wire Wire Line
+	6300 3600 6300 3800
+$Comp
+L Device:R R17
+U 1 1 6172E4A8
+P 6650 2250
+F 0 "R17" V 6443 2250 50  0000 C CNN
+F 1 "5.1K" V 6534 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 2250 50  0001 C CNN
+F 3 "~" H 6650 2250 50  0001 C CNN
+	1    6650 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 6172E4AE
+P 6150 2250
+F 0 "R16" V 5943 2250 50  0000 C CNN
+F 1 "5.1K" V 6034 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 2250 50  0001 C CNN
+F 3 "~" H 6150 2250 50  0001 C CNN
+	1    6150 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 2050 6300 2250
+Wire Wire Line
+	6500 2050 6500 2250
+Connection ~ 6300 2250
+Wire Wire Line
+	6300 2250 6300 2300
+Connection ~ 6500 2250
+Wire Wire Line
+	6500 2250 6500 2300
+$Comp
+L Device:R R20
+U 1 1 6172E4BA
+P 6650 3800
+F 0 "R20" V 6443 3800 50  0000 C CNN
+F 1 "5.1K" V 6534 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 3800 50  0001 C CNN
+F 3 "~" H 6650 3800 50  0001 C CNN
+	1    6650 3800
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 3800
+Wire Wire Line
+	6500 3800 6500 3850
+$Comp
+L Device:R R19
+U 1 1 6172E4C2
+P 6150 3800
+F 0 "R19" V 5943 3800 50  0000 C CNN
+F 1 "5.1K" V 6034 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 3800 50  0001 C CNN
+F 3 "~" H 6150 3800 50  0001 C CNN
+	1    6150 3800
+	0    1    1    0   
+$EndComp
+Connection ~ 6300 3800
+Wire Wire Line
+	6300 3800 6300 3850
+$Comp
+L Device:R R22
+U 1 1 6172E4CA
+P 6150 5350
+F 0 "R22" V 5943 5350 50  0000 C CNN
+F 1 "5.1K" V 6034 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 5350 50  0001 C CNN
+F 3 "~" H 6150 5350 50  0001 C CNN
+	1    6150 5350
+	0    1    1    0   
+$EndComp
+Connection ~ 6300 5350
+Wire Wire Line
+	6300 5350 6300 5400
+$Comp
+L Device:R R23
+U 1 1 6172E4D2
+P 6650 5350
+F 0 "R23" V 6443 5350 50  0000 C CNN
+F 1 "5.1K" V 6534 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 5350 50  0001 C CNN
+F 3 "~" H 6650 5350 50  0001 C CNN
+	1    6650 5350
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 5350
+Wire Wire Line
+	6500 5350 6500 5400
+$Comp
+L power:+5V #PWR0299
+U 1 1 6172E4EA
+P 6800 5350
+F 0 "#PWR0299" H 6800 5200 50  0001 C CNN
+F 1 "+5V" H 6815 5523 50  0000 C CNN
+F 2 "" H 6800 5350 50  0001 C CNN
+F 3 "" H 6800 5350 50  0001 C CNN
+	1    6800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0300
+U 1 1 6172E4F0
+P 6800 3800
+F 0 "#PWR0300" H 6800 3650 50  0001 C CNN
+F 1 "+5V" H 6815 3973 50  0000 C CNN
+F 2 "" H 6800 3800 50  0001 C CNN
+F 3 "" H 6800 3800 50  0001 C CNN
+	1    6800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0301
+U 1 1 6172E4F6
+P 6800 2250
+F 0 "#PWR0301" H 6800 2100 50  0001 C CNN
+F 1 "+5V" H 6815 2423 50  0000 C CNN
+F 2 "" H 6800 2250 50  0001 C CNN
+F 3 "" H 6800 2250 50  0001 C CNN
+	1    6800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0302
+U 1 1 6172E508
+P 6000 5350
+F 0 "#PWR0302" H 6000 5200 50  0001 C CNN
+F 1 "+5V" H 6015 5523 50  0000 C CNN
+F 2 "" H 6000 5350 50  0001 C CNN
+F 3 "" H 6000 5350 50  0001 C CNN
+	1    6000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0303
+U 1 1 6172E50E
+P 6000 3800
+F 0 "#PWR0303" H 6000 3650 50  0001 C CNN
+F 1 "+5V" H 6015 3973 50  0000 C CNN
+F 2 "" H 6000 3800 50  0001 C CNN
+F 3 "" H 6000 3800 50  0001 C CNN
+	1    6000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0304
+U 1 1 6172E514
+P 6000 2250
+F 0 "#PWR0304" H 6000 2100 50  0001 C CNN
+F 1 "+5V" H 6015 2423 50  0000 C CNN
+F 2 "" H 6000 2250 50  0001 C CNN
+F 3 "" H 6000 2250 50  0001 C CNN
+	1    6000 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
