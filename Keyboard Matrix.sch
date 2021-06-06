@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Project K+"
 Date "2021-05-16"
 Rev ""
@@ -2020,7 +2020,7 @@ U 1 1 60EF49D8
 P 12550 7000
 F 0 "SW75" H 12550 7166 50  0000 C CNN
 F 1 "RETURN" H 12550 7075 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 12555 6925 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB" H 12555 6925 50  0001 C CNN
 F 3 "" H 12555 6925 50  0001 C CNN
 	1    12550 7000
 	1    0    0    -1  
@@ -5999,4 +5999,235 @@ Wire Wire Line
 	5650 12850 5650 12750
 Wire Wire Line
 	5650 12750 5550 12750
+$Comp
+L Display_Character:SA39-11EWA 7SD1
+U 1 1 62036386
+P 20650 7050
+F 0 "7SD1" H 20650 7717 50  0000 C CNN
+F 1 "SA39-11EWA" H 20650 7626 50  0000 C CNN
+F 2 "Display_7Segment:Sx39-1xxxxx" H 20650 6500 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ewa.pdf" H 20650 7050 50  0001 C CNN
+	1    20650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:SA39-11EWA 7SD2
+U 1 1 6203B8A9
+P 21600 7050
+F 0 "7SD2" H 21600 7717 50  0000 C CNN
+F 1 "SA39-11EWA" H 21600 7626 50  0000 C CNN
+F 2 "Display_7Segment:Sx39-1xxxxx" H 21600 6500 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ewa.pdf" H 21600 7050 50  0001 C CNN
+	1    21600 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_5
+U 1 1 620709FC
+P 20200 4950
+F 0 "M3_SCREW_5" H 20300 4996 50  0000 L CNN
+F 1 "MountingHole" H 20300 4905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 4950 50  0001 C CNN
+F 3 "~" H 20200 4950 50  0001 C CNN
+	1    20200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_6
+U 1 1 62074290
+P 20200 5200
+F 0 "M3_SCREW_6" H 20300 5246 50  0000 L CNN
+F 1 "MountingHole" H 20300 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 5200 50  0001 C CNN
+F 3 "~" H 20200 5200 50  0001 C CNN
+	1    20200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_7
+U 1 1 6207E0EF
+P 20200 5450
+F 0 "M3_SCREW_7" H 20300 5496 50  0000 L CNN
+F 1 "MountingHole" H 20300 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 5450 50  0001 C CNN
+F 3 "~" H 20200 5450 50  0001 C CNN
+	1    20200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_8
+U 1 1 62087F35
+P 20200 5700
+F 0 "M3_SCREW_8" H 20300 5746 50  0000 L CNN
+F 1 "MountingHole" H 20300 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 5700 50  0001 C CNN
+F 3 "~" H 20200 5700 50  0001 C CNN
+	1    20200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_9
+U 1 1 62091D5F
+P 20200 5950
+F 0 "M3_SCREW_9" H 20300 5996 50  0000 L CNN
+F 1 "MountingHole" H 20300 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 5950 50  0001 C CNN
+F 3 "~" H 20200 5950 50  0001 C CNN
+	1    20200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_4
+U 1 1 6209E7C7
+P 20200 4700
+F 0 "M3_SCREW_4" H 20300 4746 50  0000 L CNN
+F 1 "MountingHole" H 20300 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 4700 50  0001 C CNN
+F 3 "~" H 20200 4700 50  0001 C CNN
+	1    20200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_3
+U 1 1 620A85AE
+P 20200 4450
+F 0 "M3_SCREW_3" H 20300 4496 50  0000 L CNN
+F 1 "MountingHole" H 20300 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 4450 50  0001 C CNN
+F 3 "~" H 20200 4450 50  0001 C CNN
+	1    20200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_2
+U 1 1 620B243D
+P 20200 4200
+F 0 "M3_SCREW_2" H 20300 4246 50  0000 L CNN
+F 1 "MountingHole" H 20300 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 4200 50  0001 C CNN
+F 3 "~" H 20200 4200 50  0001 C CNN
+	1    20200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_1
+U 1 1 620BC32E
+P 20200 3950
+F 0 "M3_SCREW_1" H 20300 3996 50  0000 L CNN
+F 1 "MountingHole" H 20300 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 20200 3950 50  0001 C CNN
+F 3 "~" H 20200 3950 50  0001 C CNN
+	1    20200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_14
+U 1 1 621A23B7
+P 21100 4950
+F 0 "M3_SCREW_14" H 21200 4996 50  0000 L CNN
+F 1 "MountingHole" H 21200 4905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 4950 50  0001 C CNN
+F 3 "~" H 21100 4950 50  0001 C CNN
+	1    21100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_15
+U 1 1 621A23BD
+P 21100 5200
+F 0 "M3_SCREW_15" H 21200 5246 50  0000 L CNN
+F 1 "MountingHole" H 21200 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 5200 50  0001 C CNN
+F 3 "~" H 21100 5200 50  0001 C CNN
+	1    21100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_16
+U 1 1 621A23C3
+P 21100 5450
+F 0 "M3_SCREW_16" H 21200 5496 50  0000 L CNN
+F 1 "MountingHole" H 21200 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 5450 50  0001 C CNN
+F 3 "~" H 21100 5450 50  0001 C CNN
+	1    21100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_17
+U 1 1 621A23C9
+P 21100 5700
+F 0 "M3_SCREW_17" H 21200 5746 50  0000 L CNN
+F 1 "MountingHole" H 21200 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 5700 50  0001 C CNN
+F 3 "~" H 21100 5700 50  0001 C CNN
+	1    21100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_18
+U 1 1 621A23CF
+P 21100 5950
+F 0 "M3_SCREW_18" H 21200 5996 50  0000 L CNN
+F 1 "MountingHole" H 21200 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 5950 50  0001 C CNN
+F 3 "~" H 21100 5950 50  0001 C CNN
+	1    21100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_13
+U 1 1 621A23D5
+P 21100 4700
+F 0 "M3_SCREW_13" H 21200 4746 50  0000 L CNN
+F 1 "MountingHole" H 21200 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 4700 50  0001 C CNN
+F 3 "~" H 21100 4700 50  0001 C CNN
+	1    21100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_12
+U 1 1 621A23DB
+P 21100 4450
+F 0 "M3_SCREW_12" H 21200 4496 50  0000 L CNN
+F 1 "MountingHole" H 21200 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 4450 50  0001 C CNN
+F 3 "~" H 21100 4450 50  0001 C CNN
+	1    21100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_11
+U 1 1 621A23E1
+P 21100 4200
+F 0 "M3_SCREW_11" H 21200 4246 50  0000 L CNN
+F 1 "MountingHole" H 21200 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 4200 50  0001 C CNN
+F 3 "~" H 21100 4200 50  0001 C CNN
+	1    21100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_10
+U 1 1 621A23E7
+P 21100 3950
+F 0 "M3_SCREW_10" H 21200 3996 50  0000 L CNN
+F 1 "MountingHole" H 21200 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 21100 3950 50  0001 C CNN
+F 3 "~" H 21100 3950 50  0001 C CNN
+	1    21100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole M3_SCREW_19
+U 1 1 6224E753
+P 22000 5000
+F 0 "M3_SCREW_19" H 22100 5046 50  0000 L CNN
+F 1 "MountingHole" H 22100 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 22000 5000 50  0001 C CNN
+F 3 "~" H 22000 5000 50  0001 C CNN
+	1    22000 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
