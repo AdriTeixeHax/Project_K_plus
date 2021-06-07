@@ -6000,28 +6000,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 12750 5550 12750
 $Comp
-L Display_Character:SA39-11EWA 7SD1
-U 1 1 62036386
-P 20650 7050
-F 0 "7SD1" H 20650 7717 50  0000 C CNN
-F 1 "SA39-11EWA" H 20650 7626 50  0000 C CNN
-F 2 "Display_7Segment:Sx39-1xxxxx" H 20650 6500 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ewa.pdf" H 20650 7050 50  0001 C CNN
-	1    20650 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Display_Character:SA39-11EWA 7SD2
-U 1 1 6203B8A9
-P 21600 7050
-F 0 "7SD2" H 21600 7717 50  0000 C CNN
-F 1 "SA39-11EWA" H 21600 7626 50  0000 C CNN
-F 2 "Display_7Segment:Sx39-1xxxxx" H 21600 6500 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ewa.pdf" H 21600 7050 50  0001 C CNN
-	1    21600 7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole M3_SCREW_5
 U 1 1 620709FC
 P 20200 4950

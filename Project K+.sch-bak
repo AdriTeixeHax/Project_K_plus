@@ -748,17 +748,6 @@ F 3 "" H 2250 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Project-K+-rescue:USB_C_Receptacle_USB2.0-Connector USB2
-U 1 1 62268702
-P 5850 1900
-F 0 "USB2" H 5957 2767 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 5957 2676 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 6000 1900 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6000 1900 50  0001 C CNN
-	1    5850 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Project-K+-rescue:USB_C_Receptacle_USB2.0-Connector USB3
 U 1 1 62269EF9
 P 3900 3950
