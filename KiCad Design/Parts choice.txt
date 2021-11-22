@@ -1,6 +1,4 @@
 Switches:			Gateron SMD Brown
-RGB LEDs:			6028 PLCC Reverse Mount CA
-RGB Controller IC: WS2811(S)	https://lcsc.com/product-detail/LED-Drivers_Worldsemi-WS2811_C114581.html
 Arduino Controller:		Arduino Pro Micro (USB-C)
 USB-C Receptacle
 Rotary Encoders:		https://es.aliexpress.com/item/32873198060.html?spm=a2g0o.productlist.0.0.2fae568eRFWkZD&algo_pvid=6206ccd6-eb67-46d6-b79d-bebcf0c47240&algo_expid=6206ccd6-eb67-46d6-b79d-bebcf0c47240-5&btsid=2100bdd516163515976983509ea285&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
@@ -10,6 +8,4 @@ Diodes				https://lcsc.com/product-detail/Diodes-General-Purpose_Slkor-SLKORMICR
 5.1K Resistors			https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPB3B5101V_C413696.html
 220R Resistors			https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF2200T5E_C22962.html
 100R Resistors			https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html
-PISO Shift Register 74HC165	https://lcsc.com/product-detail/74-Series_Texas-Instruments-Texas-Instruments-SN74HC165DR_C61060.html
-Magnetic connectors		https://es.aliexpress.com/item/1005002669709542.html?spm=a2g0o.productlist.0.0.2db6ff90iywiQQ&algo_pvid=03437aa6-40e7-4325-874f-cb52922f10be&algo_expid=03437aa6-40e7-4325-874f-cb52922f10be-2&btsid=2100bdf116230165547597496e98f1&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 	
